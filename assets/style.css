@@ -1,0 +1,38 @@
+body {
+    color: #020901;
+    font-family: Garamond, Georgia, Times New Roman, serif;
+}
+header {
+    padding: 30px 45px;
+    background-color: #2e3a24;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url('../assets/images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    color: #fefae0;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    background-color: #2e3a24;
+    font-size: 1.55vw;
+    color: #fefae0;
+}
