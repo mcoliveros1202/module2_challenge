@@ -16,10 +16,11 @@ header {
 
 header h1 {
     color: #fefae0;
+    margin-top: 22px;
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 12px 0;
 }
 
 header nav ul {
@@ -35,4 +36,21 @@ header nav ul li a {
     background-color: #2e3a24;
     font-size: 1.55vw;
     color: #fefae0;
+}
+
+.hero {
+    background-image: url('../assets/images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+.hero h2 {
+    color: #fefae0;
+    font-weight: lighter;
+    margin: 65px 80px 30px;
 }
