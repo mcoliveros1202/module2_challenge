@@ -1,14 +1,16 @@
 body {
+    background-image: url(./images/background-image.jpg);
     color: #020901;
     font-family: Garamond, Georgia, Times New Roman, serif;
+    background-color: #E9EEDE;
 }
 header {
     padding: 30px 45px;
-    background-color: #2e3a24;
+
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url('../assets/images/background-image.jpg');
+    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -33,15 +35,12 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    background-color: #2e3a24;
     font-size: 1.55vw;
     color: #fefae0;
+    background-color: rgba(92, 67, 36, .5)
 }
-
 .hero {
-    background-image: url('../assets/images/background-image.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: rgba(71, 80, 51, .3);
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
@@ -53,4 +52,60 @@ header nav ul li a {
     color: #fefae0;
     font-weight: lighter;
     margin: 65px 80px 30px;
+}
+.bio {
+    background-color: rgba(71, 80, 51, .3);
+    color: #fefae0;
+}
+.my-work {
+    background-color: rgba(71, 80, 51, .3);
+    color: #fefae0;
+}
+.samples {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sample {
+    margin: 20px;
+    padding: 23px;
+    flex: 1;
+    background-color: rgba(71, 80, 51, .3);
+    color: #fefae0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sample-rb {
+    margin: 100px;
+    padding: 30px;
+    background-color: rgba(71, 80, 51, .3);
+    color: #fefae0;
+}
+.sample-rb img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 7px;
+    width: 75%;
+    height: auto;
+}
+.sample-rb h3, .sample h3 {
+    color: #fefae0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+.sample img {
+    border-radius: 7px;
+    padding: 9px;
+    width: 80%;
+    margin: 20px;
+}
+.contact {
+    background-color: rgba(71, 80, 51, .3);
+    color: #fefae0;
 }
