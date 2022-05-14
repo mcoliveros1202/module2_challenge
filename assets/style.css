@@ -79,7 +79,7 @@ header ul li a:active {
 }
 
 .bio img {
-    width: 30%;
+    width: 20%;
     float: left;
     margin: 22px;
 }
@@ -236,6 +236,9 @@ header ul li a:active {
         display: block;
         text-align: left;
         font-size: 20px;
+    }
+    header nav ul li a {
+        font-size: 3vw;
     }
     .bio {
         margin: auto;
